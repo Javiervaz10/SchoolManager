@@ -1,0 +1,101 @@
+
+/*Generales*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif !important;
+}
+.main{
+    background-image: url('https://cdn.wallpapersafari.com/62/90/owk8QH.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.main2{
+    background-image: url('https://media.istockphoto.com/id/1328368631/photo/ready-for-school-concept-background-with-books-alarm-clock-and-accessory.jpg?b=1&s=170667a&w=0&k=20&c=I1oVAJ9aPkEBHtPEa5GAMvjD_rpzZiaMezHR0peDzfw=');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.contenedorImageMain{
+    background-image: url('https://static-hotsites.edufindme.com/tsw-events/d49b6d830f53023abfe0eb68c8e448d27ca3b625/static/img/hub/img/img-student-3.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    min-height: 90vh;
+}
+.contenedorImageMain2{
+    background-image: url('https://www.tccd.edu/images/admission/students/new-to-college-student-apply.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    min-height: 90vh;
+}
+
+#root{
+    margin: 0 !important;
+    padding: 0 !important;
+}
+.mainContainer{
+    margin: 0 !important;
+}
+/*Principal*/
+.noticiaPrincipal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.contenidoNoticiaPrincipal{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    
+    padding: 1.5rem;
+}
+
+.contenidoNoticiaPrincipal div p, .contenidoNoticiaPrincipal h1{
+    text-align: left;
+}
+.noticiaInicial{
+    
+}
+/*Noticias laterales*/
+.noticiasLateral{
+    background: rgb(4, 4, 39);
+    padding: 1.4rem;
+}
+.noticiasLateral h3{
+    color: white;
+}
+.noticiasLateral p{
+    color: gray;
+    border-bottom: 1px solid white;
+}
+/*Noticias de terceros*/
+.noticiasTerceros{
+display: flex;
+justify-content: space-around;
+align-items: center;
+}
+.noticiaChica{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+.noticiaChica img{
+    width: 100px;
+    height:  120px;
+}
+.noticiaChica p, .noticiaChica h3{
+    margin-left: 10px;
+}
+@media (max-width:600px) {
+    .noticiasTerceros{
+        flex-direction: column;
+    }
+}

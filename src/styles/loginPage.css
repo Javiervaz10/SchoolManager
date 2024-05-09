@@ -1,0 +1,45 @@
+/*Estilos del contendor principal*/
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+*{
+    font-family: 'Poppins', sans-serif !important;
+}
+body{
+}
+
+.loginContainer{
+   margin: 0 auto;
+   border: 1px solid gray;
+   border-radius: 15px;
+   height: 100vh;
+}
+
+/*Estilos del contenedor de imagenes*/
+.leftContainer{
+    background-image: url('https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-login-form/draw2.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+/*Estilos del contendor derecho del formulario*/
+.rightContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.rightContainer img{
+    width: 200px;
+}
+
+/*---------------DISEÑO RESPONSIVE---------------*/
+@media (max-width: 720px) {
+    .leftContainer {
+      display: none;
+    }
+    .loginContainer{
+      border: 1px solid gray;
+      margin: 20px;
+  }
+  }
